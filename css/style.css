@@ -1,0 +1,49 @@
+/* https://css-tricks.com/the-current-state-of-styling-scrollbars-in-css/#an-updated-version-of-a-fairly-consistently-styled-scrollbar-across-firefox-safari-chrome */
+html {
+  --scrollbarBG: #000000;
+  --thumbBG: #6C717D;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+/* scrollbar end */
+a {
+  color: #E7C07E;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Lato", sans-serif;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+@media (min-width : 1200px) {
+  h1 {
+    font-size: 5em;
+  }
+}
