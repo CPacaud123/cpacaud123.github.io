@@ -49,7 +49,7 @@ Amplitude.init({
 
     {
       "name": "123",
-      "url": "./musique/123.flac",
+      "url": "./musique/123.ogg",
       "cover_art_url": "./art/123.jpg",
       "download": '<a href="./musique/123.flac" download>Télécharger (FLAC)</a>',
       "date": '10 janvier 2000',
@@ -60,7 +60,7 @@ Amplitude.init({
 
     { /*Géants - Naître en soif de vide*/
       "name": "Géants - Naître en soif de vide",
-      "url": "./musique/Christian Pacaud - Géants - Naître en soif de vide.flac",
+      "url": "./musique/Christian Pacaud - Géants - Naître en soif de vide.ogg",
       "cover_art_url": "./art/Christian Pacaud - Géants - Naître en soif de vide.jpg",
       "download": '<a href="./musique/Christian Pacaud - Géants - Naître en soif de vide.flac" download>Télécharger (FLAC)</a>',
       "date": '5 septembre 2021',
@@ -68,7 +68,7 @@ Amplitude.init({
     },
     { /*Orfan*/
       "name": "Orfan",
-      "url": "./musique/Christian Pacaud - Orfan.flac",
+      "url": "./musique/Christian Pacaud - Orfan.ogg",
       "cover_art_url": "./art/Christian Pacaud - Orfan.jpg",
       "download": '<a href="./musique/Christian Pacaud - Orfan.flac" download>Télécharger (FLAC)</a>',
       "date": '4 mai 2021 ',
@@ -76,7 +76,7 @@ Amplitude.init({
     },
     { /*Anthmèses*/
       "name": 'Anthmèses',
-      "url": "./musique/Christian Pacaud - Anthmèses.flac",
+      "url": "./musique/Christian Pacaud - Anthmèses.ogg",
       "cover_art_url": "./art/Christian Pacaud - Anthmèses.jpg",
       "download": '<a href="./musique/Christian Pacaud - Anthmèses.flac" download>Télécharger (FLAC)</a>',
       "date": '5 avril 2021',
@@ -84,7 +84,7 @@ Amplitude.init({
     },
     { /*Géants - Assoupis sur les berges*/
       "name": "Géants - Assoupis sur les berges",
-      "url": "./musique/Christian Pacaud - Géants - Assoupis sur les berges.flac",
+      "url": "./musique/Christian Pacaud - Géants - Assoupis sur les berges.ogg",
       "cover_art_url": "./art/Christian Pacaud - Géants - Assoupis sur les berges.jpg",
       "download": '<a href="./musique/Christian Pacaud - Géants - Assoupis sur les berges.flac" download>Télécharger (FLAC)</a>',
       "date": '20 mars 2021',
@@ -92,7 +92,7 @@ Amplitude.init({
     },
     { /*Apparoir VX*/
       "name": "Apparoir VX",
-      "url": "./musique/Christian Pacaud - Apparoir VX.flac",
+      "url": "./musique/Christian Pacaud - Apparoir VX.ogg",
       "cover_art_url": "./art/Christian Pacaud - Apparoir VX.jpg",
       "download": '<a href="./musique/Christian Pacaud - Apparoir VX.flac" download>Télécharger (FLAC)</a>',
       "date": '10 mai 2020',
