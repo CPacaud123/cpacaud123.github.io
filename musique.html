@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Christian Pacaud</title>
+  <script type="text/javascript" src="js/includeHTML.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@5.3.2/dist/amplitude.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/app.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+
+  <header>
+    <div w3-include-html="includes/header.html"></div>
+  </header>
+
+  <nav>
+    <div w3-include-html="includes/nav.html"></div>
+  </nav>
+
+
+  <div id="flat-black-player-container">
+    <div id="list-screen" class="slide-in-top">
+      <div id="list-screen-header" class="hide-playlist">
+        <img id="up-arrow" src="img/up.svg" />
+        Cacher
+      </div>
+
+      <div id="list">
+
+<!-- song container template
+
+<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+  <span class="song-number-now-playing">
+    <img class="now-playing" src="img/now-playing.svg" />
+  </span>
+  <div class="song-meta-container">
+    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="0"></span>
+    <span class="song-date" data-amplitude-song-info="date" data-amplitude-song-index="0"></span>
+  </div>
+</div>
+
+-->
+
+        <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+          <span class="song-number-now-playing">
+            <img class="now-playing" src="img/now-playing.svg" />
+          </span>
+          <div class="song-meta-container">
+            <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="0"></span>
+            <span class="song-date" data-amplitude-song-info="date" data-amplitude-song-index="0"></span>
+          </div>
+        </div>
+
+        <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">
+          <span class="song-number-now-playing">
+            <img class="now-playing" src="img/now-playing.svg" />
+          </span>
+          <div class="song-meta-container">
+            <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="1"></span>
+            <span class="song-date" data-amplitude-song-info="date" data-amplitude-song-index="1"></span>
+          </div>
+        </div>
+
+        <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2">
+          <span class="song-number-now-playing">
+            <img class="now-playing" src="img/now-playing.svg" />
+          </span>
+          <div class="song-meta-container">
+            <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="2"></span>
+            <span class="song-date" data-amplitude-song-info="date" data-amplitude-song-index="2"></span>
+          </div>
+        </div>
+
+        <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="3">
+          <span class="song-number-now-playing">
+            <img class="now-playing" src="img/now-playing.svg" />
+          </span>
+          <div class="song-meta-container">
+            <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="3"></span>
+            <span class="song-date" data-amplitude-song-info="date" data-amplitude-song-index="3"></span>
+          </div>
+        </div>
+
+        <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="4">
+          <span class="song-number-now-playing">
+            <img class="now-playing" src="img/now-playing.svg" />
+          </span>
+          <div class="song-meta-container">
+            <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="4"></span>
+            <span class="song-date" data-amplitude-song-info="date" data-amplitude-song-index="4"></span>
+          </div>
+        </div>
+
+        <!-- end song list -->
+
+      </div>
+
+
+      <div id="list-screen-footer">
+        <div id="list-screen-meta-container">
+          <span data-amplitude-song-info="name" class="song-name"></span>
+        </div>
+        <div class="list-controls">
+          <div class="list-previous amplitude-prev"></div>
+          <div class="list-play-pause amplitude-play-pause"></div>
+          <div class="list-next amplitude-next"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="player-screen">
+
+      <div class="player-header down-header">
+        <img id="down" src="img/down.svg" />
+        Liste de lecture
+      </div>
+
+      <div id="player-top">
+        <img data-amplitude-song-info="cover_art_url" />
+      </div>
+
+      <div id="player-progress-bar-container">
+        <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+        <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+      </div>
+
+      <div id="player-middle">
+        <div id="time-container">
+          <span class="amplitude-current-time time-container"></span>
+          <span class="amplitude-duration-time time-container"></span>
+        </div>
+
+        <div id="meta-container">
+          <span data-amplitude-song-info="name" class="song-name"></span>
+        </div>
+      </div>
+
+      <div id="player-bottom">
+
+        <div id="control-container">
+
+          <div id="prev-container">
+            <div class="amplitude-prev" id="previous"></div>
+          </div>
+
+          <div id="play-pause-container">
+            <div class="amplitude-play-pause" id="play-pause"></div>
+          </div>
+
+          <div id="next-container">
+            <div class="amplitude-next" id="next"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="trackinfo">
+      <p class="song-download" data-amplitude-song-info="download"></p>
+      <p class="song-date" data-amplitude-song-info="date"></p>
+      <p class="song-credits" data-amplitude-song-info="credits"></p>
+    </div>
+
+    <footer>
+      <div w3-include-html="includes/footer.html"></div>
+    </footer>
+
+    <script>
+      includeHTML();
+    </script>
+
+</body>
+
+<script type="text/javascript" src="js/functions.js"></script>
+
+</html>

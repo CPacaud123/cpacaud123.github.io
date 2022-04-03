@@ -2,7 +2,13 @@
 html {
   --scrollbarBG: #000000;
   --thumbBG: #6C717D;
+  --color-primary: white;
+  --color-background: black;
+  --color-text: white;
+  --color-link: #E7C07E;
 }
+
+/* scrollbar */
 
 body::-webkit-scrollbar {
   width: 11px;
@@ -24,8 +30,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* scrollbar end */
+
 a {
-  color: #E7C07E;
+  color: var(--color-link);
   outline: none;
   text-decoration: none;
 }
@@ -35,15 +42,45 @@ a:hover {
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: var(--color-background);
+  color: var(--color-text);
   font-family: "Lato", sans-serif;
   overflow-y: scroll;
   font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
 }
+
+h1.title {
+  color: var(--color-primary);
+  font-size: 5em;
+}
+
+.navmenu {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.navmenu > div {
+    flex: 1;
+    text-align: center;
+}
+
+#randImage {
+  text-align: center;
+}
+
+
+/*
 
 @media (min-width : 1200px) {
   h1 {
     font-size: 5em;
   }
 }
+
+*/
