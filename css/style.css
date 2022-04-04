@@ -54,15 +54,32 @@ body {
 
 h1.title {
   color: var(--color-primary);
+  font-size: 3em;
+}
+
+@media (min-width: 750px) {h1.title {
   font-size: 5em;
+}
 }
 
 .navmenu {
   display: flex;
-  width: 600px;
+  font-size: 0.75em;
+  width: 300px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+@media (min-width: 750px) {
+  .navmenu {
+    display: flex;
+      font-size: 1em;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 .navmenu > div {
@@ -75,12 +92,18 @@ h1.title {
 }
 
 
-/*
 
-@media (min-width : 1200px) {
-  h1 {
-    font-size: 5em;
-  }
-}
+/* Larger than mobile */
+@media (min-width: 400px) {}
 
-*/
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

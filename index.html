@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
+  
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>Christian Pacaud</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/includeHTML.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <script type="text/javascript" src="js/getRandomImage.js"></script>
+
 </head>
 
 <body>
@@ -19,21 +28,6 @@
   </nav>
 
   <!-- Photo aleatoire https://stackoverflow.com/questions/21648147/selecting-a-random-image -->
-
-  <script type="text/javascript">
-    ImageArray = new Array();
-    ImageArray[0] = '20210710_130427_HDR_v1.jpg';
-    ImageArray[1] = '20190820_124858_HDR~2-edited_v1.jpg';
-    ImageArray[2] = '20210605_182651_HDR_v1.jpg';
-    ImageArray[3] = '20210710_110323_HDR_v1.jpg';
-
-    function getRandomImage() {
-      var num = Math.floor(Math.random() * 4);
-      var img = ImageArray[num];
-      document.getElementById("randImage").innerHTML = ('<img src="' + 'photos/' + img + '" width="600px">')
-
-    }
-  </script>
 
   <body onload="getRandomImage()">
     <div id="randImage"></div>
