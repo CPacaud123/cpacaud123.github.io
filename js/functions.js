@@ -36,6 +36,11 @@ document.getElementById('song-played-progress').addEventListener('click', functi
 
 document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.height = document.querySelector('img[data-amplitude-song-info="cover_art_url"]').offsetWidth + 'px';
 
+
+/*
+init
+*/
+
 Amplitude.init({
   "bindings": {
     37: 'prev',
@@ -98,5 +103,13 @@ Amplitude.init({
       "date": '10 mai 2020',
       "credits": 'Christian Pacaud : musique, mixage et basse <br> <br> Photo : Pražský Metronom, 2 décembre 2017, Prague, Tchéquie / Christian Pacaud'
     },
-  ]
+  ],
+  "callbacks": {
+'song_change': function () {
+updatenotification();
+},
+'play': function () {
+updatenotification();
+}
+}
 });
