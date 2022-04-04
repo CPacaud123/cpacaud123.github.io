@@ -9,7 +9,6 @@ html {
 }
 
 /* scrollbar */
-
 body::-webkit-scrollbar {
   width: 11px;
 }
@@ -30,7 +29,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* scrollbar end */
-
 a {
   color: var(--color-link);
   outline: none;
@@ -57,14 +55,14 @@ h1.title {
   font-size: 3em;
 }
 
-@media (min-width: 750px) {h1.title {
-  font-size: 5em;
-}
+@media (min-width: 750px) {
+  h1.title {
+    font-size: 5em;
+  }
 }
 
 .navmenu {
   display: flex;
-  font-size: 0.75em;
   width: 300px;
   margin: 0 auto;
   margin-top: 50px;
@@ -74,7 +72,6 @@ h1.title {
 @media (min-width: 750px) {
   .navmenu {
     display: flex;
-      font-size: 1em;
     width: 600px;
     margin: 0 auto;
     margin-top: 50px;
@@ -82,16 +79,17 @@ h1.title {
   }
 }
 
-.navmenu > div {
-    flex: 1;
-    text-align: center;
+.navmenu>div {
+  flex: auto;
+  flex-wrap: wrap;
+  font-size: 2em;
+  text-align: center;
+  border-style: none;
 }
 
 #randImage {
   text-align: center;
 }
-
-
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
