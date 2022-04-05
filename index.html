@@ -11,8 +11,6 @@
   <link rel="icon" type="image/png" href="img/favicon.ico">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="text/javascript" src="js/includeHTML.js"></script>
-
   <script type="text/javascript" src="js/getImageTag.js"></script>
 
 
@@ -21,26 +19,44 @@
 <body>
 
   <header>
-    <div w3-include-html="includes/header.html"></div>
+    <h1 class="title" align="center">Christian Pacaud</h1>
   </header>
 
   <nav>
-    <div w3-include-html="includes/nav.html"></div>
+    <div class="navmenu">
+      <div>
+        <a href="index.html">
+          Accueil
+        </a>
+      </div>
+      <div>
+        |
+      </div>
+      <div>
+        <a href="musique.html">
+          Musique
+        </a>
+      </div>
+      <div>
+        |
+      </div>
+      <div>
+        <a href="https://www.christianpacaud.com/">
+          Notes
+        </a>
+      </div>
+    </div>
   </nav>
 
-<div id=randImage>
-  <script type="text/javascript">
-    document.write(getImageTag());
-  </script>
-</div>
+  <div id=randImage>
+    <script type="text/javascript">
+      document.write(getImageTag());
+    </script>
+  </div>
 
   <footer>
-    <div w3-include-html="includes/footer.html"></div>
+    <!-- footer tbd -->
   </footer>
-
-  <script>
-    includeHTML();
-  </script>
 
 </body>
 

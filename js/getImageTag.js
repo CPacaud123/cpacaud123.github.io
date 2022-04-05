@@ -7,12 +7,14 @@ var imageURLs_1000px = [
   , "photos/roche_1000px.jpg"
 ];
 
+/*
 var imageURLs_300px = [
   "photos/fleuve_300px.jpg"
   , "photos/lichen_300px.jpg"
   , "photos/montalbert_300px.jpg"
   , "photos/roche_300px.jpg"
 ];
+*/
 
 var x = window.matchMedia("(min-width: 750px)")
 
@@ -25,8 +27,8 @@ function getImageTag() {
     return img;
   } else {
     var img = '<img src=\"';
-    var randomIndex = Math.floor(Math.random() * imageURLs_300px.length);
-    img += imageURLs_300px[randomIndex];
+    var randomIndex = Math.floor(Math.random() * imageURLs_1000px.length);
+    img += imageURLs_1000px[randomIndex];
     img += '\" width=\"300px\" />';
     return img;
   }
