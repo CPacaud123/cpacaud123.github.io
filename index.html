@@ -8,12 +8,13 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/includeHTML.js"></script>
 
-  <script type="text/javascript" src="js/getRandomImage.js"></script>
+  <script type="text/javascript" src="js/getImageTag.js"></script>
+
 
 </head>
 
@@ -27,13 +28,11 @@
     <div w3-include-html="includes/nav.html"></div>
   </nav>
 
-  <!-- Photo aleatoire https://stackoverflow.com/questions/21648147/selecting-a-random-image -->
-
-  <body onload="getRandomImage()">
-    <div id="randImage"></div>
-  </body>
-
-  <!-- fin Photo aleatoire -->
+<div id=randImage>
+  <script type="text/javascript">
+    document.write(getImageTag());
+  </script>
+</div>
 
   <footer>
     <div w3-include-html="includes/footer.html"></div>
