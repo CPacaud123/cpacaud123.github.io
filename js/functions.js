@@ -54,6 +54,7 @@ Amplitude.init({
 
     {
       "name": "123",
+      "artist": "Christian Pacaud",
       "url": "./musique/123.ogg",
       "cover_art_url": "./art/123.jpg",
       "download": '<a href="./musique/123.flac" download>Télécharger (FLAC)</a>',
@@ -65,40 +66,45 @@ Amplitude.init({
 
     { /*Géants - Naître en soif de vide*/
       "name": "Géants - Naître en soif de vide",
+      "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Géants - Naître en soif de vide.ogg",
-      "cover_art_url": "./art/Christian Pacaud - Géants - Naître en soif de vide.jpg",
+      "cover_art_url": "./art/Christian Pacaud - Géants - Naître en soif de vide_1200px.jpg",
       "download": '<a href="./musique/Christian Pacaud - Géants - Naître en soif de vide.flac" download>Télécharger (FLAC)</a>',
       "date": '5 septembre 2021',
       "credits": 'Christian Pacaud : musique, arrangements, mixage, guitare et basse<br>Alexandre Hudon : batterie<br><br>Geneviève Savoie : piccolo, flûte traversière<br>Jean-Sébastien Blais : hautbois<br>Stéphane Fontaine : clarinette<br>Yana Ouellet : basson<br><br>Quatuor Crema  (<a href="http://www.quatuorcrema.com" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">www.quatuorcrema.com</a>)<br>Inti Manzi : violon<br>Jean-Michel Marois : violon<br>Annie Morrier : alto<br>Rachel Baillargeon : violoncelle<br><br>Antoine Baril : enregistrement - batterie  (<a href="https://hemispherestudio.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">hemispherestudio.com</a>)<br>Inti Manzi : enregistrement - violons, alto, violoncelle, clarinette<br><br>Photo : Christian Pacaud'
     },
     { /*Orfan*/
       "name": "Orfan",
+      "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Orfan.ogg",
-      "cover_art_url": "./art/Christian Pacaud - Orfan.jpg",
+      "cover_art_url": "./art/Christian Pacaud - Orfan_1200px.jpg",
       "download": '<a href="./musique/Christian Pacaud - Orfan.flac" download>Télécharger (FLAC)</a>',
       "date": '4 mai 2021 ',
       "credits": 'Christian Pacaud : musique, arrangements, mixage, guitare et basse <br> Cameron Wisch : batterie  (<a href="http://cameronwisch.com" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">cameronwisch.com</a>) <br> <br> Quatuor Crema  (<a href="http://www.quatuorcrema.com" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">www.quatuorcrema.com</a>) <br> Inti Manzi : violon <br> Jean-Michel Marois : violon <br> Annie Morrier : alto <br> Rachel Baillargeon : violoncelle <br> <br> Photo : Christian Pacaud'
     },
     { /*Anthmèses*/
       "name": 'Anthmèses',
+      "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Anthmèses.ogg",
-      "cover_art_url": "./art/Christian Pacaud - Anthmèses.jpg",
+      "cover_art_url": "./art/Christian Pacaud - Anthmèses_1200px.jpg",
       "download": '<a href="./musique/Christian Pacaud - Anthmèses.flac" download>Télécharger (FLAC)</a>',
       "date": '5 avril 2021',
       "credits": 'Christian Pacaud : musique, mixage, guitare et basse <br> Cameron Wisch : batterie  (<a href="https://cameronwisch.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">cameronwisch.com</a>) <br> Francis Grégoire : claviers  (<a href="https://universeeffects.ca/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">universeeffects.ca</a>) <br> <br> Photo : Sébastien Fortier  (<a href="https://unsplash.com/photos/AshT365TphA" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">unsplash.com/photos/AshT365TphA</a>)'
     },
     { /*Géants - Assoupis sur les berges*/
       "name": "Géants - Assoupis sur les berges",
+      "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Géants - Assoupis sur les berges.ogg",
-      "cover_art_url": "./art/Christian Pacaud - Géants - Assoupis sur les berges.jpg",
+      "cover_art_url": "./art/Christian Pacaud - Géants - Assoupis sur les berges_1200px.jpg",
       "download": '<a href="./musique/Christian Pacaud - Géants - Assoupis sur les berges.flac" download>Télécharger (FLAC)</a>',
       "date": '20 mars 2021',
       "credits": 'Christian Pacaud : musique, arrangements, mixage, guitare et basse <br> Cameron Wisch : batterie  (<a href="https://cameronwisch.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">cameronwisch.com</a>) <br> Thomas Feng : piano  (<a href="https://www.thomasfengmusic.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">www.thomasfengmusic.com</a>) <br> Nancy Voiselle : piccolo, flûte traversière <br> Kristin Naigus : hautbois  (<a href="http://field-of-reeds.net/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">field-of-reeds.net</a>) <br> Lori Syngajewski : clarinette  (<a href="https://lorisyngajewski.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">lorisyngajewski.com</a>) <br> Bassoonify : basson  (<a href="https://www.youtube.com/c/Bassoonify/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">www.youtube.com/c/Bassoonify/</a>) <br> <br> Quatuor Crema  (<a href="https://www.quatuorcrema.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">www.quatuorcrema.com</a>) <br> Inti Manzi : violon <br> Jean-Michel Marois : violon <br> Annie Morrier : alto <br> Rachel Baillargeon : violoncelle <br> <br> Photo : Fleuve Saint-Laurent à marée basse, 26 juillet 2020, Trois-Pistoles, Québec / Christian Pacaud'
     },
     { /*Apparoir VX*/
       "name": "Apparoir VX",
+      "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Apparoir VX.ogg",
-      "cover_art_url": "./art/Christian Pacaud - Apparoir VX.jpg",
+      "cover_art_url": "./art/Christian Pacaud - Apparoir VX_1200px.jpg",
       "download": '<a href="./musique/Christian Pacaud - Apparoir VX.flac" download>Télécharger (FLAC)</a>',
       "date": '10 mai 2020',
       "credits": 'Christian Pacaud : musique, mixage et basse <br> <br> Photo : Pražský Metronom, 2 décembre 2017, Prague, Tchéquie / Christian Pacaud'

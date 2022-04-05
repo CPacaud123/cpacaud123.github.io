@@ -1,10 +1,10 @@
 /* https://stackoverflow.com/a/2777577 */
 
-var imageURLs_1000px = [
-  "photos/fleuve_1000px.jpg"
-  , "photos/lichen_1000px.jpg"
-  , "photos/montalbert_1000px.jpg"
-  , "photos/roche_1000px.jpg"
+var imageURLs_1200px = [
+  "photos/fleuve_1200px.jpg"
+  , "photos/lichen_1200px.jpg"
+  , "photos/montalbert_1200px.jpg"
+  , "photos/roche_1200px.jpg"
 ];
 
 /*
@@ -16,19 +16,26 @@ var imageURLs_300px = [
 ];
 */
 
-var x = window.matchMedia("(min-width: 750px)")
+var minw750 = window.matchMedia("(min-width: 750px)")
+var minw1200 = window.matchMedia("(min-width: 1200px)")
 
 function getImageTag() {
-  if (x.matches) {
+  if (minw1200.matches) {
     var img = '<img src=\"';
-    var randomIndex = Math.floor(Math.random() * imageURLs_1000px.length);
-    img += imageURLs_1000px[randomIndex];
+    var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
+    img += imageURLs_1200px[randomIndex];
+    img += '\" width=\"900px\" />';
+    return img;
+  } else if (minw750.matches) {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
+    img += imageURLs_1200px[randomIndex];
     img += '\" width=\"600px\" />';
     return img;
   } else {
     var img = '<img src=\"';
-    var randomIndex = Math.floor(Math.random() * imageURLs_1000px.length);
-    img += imageURLs_1000px[randomIndex];
+    var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
+    img += imageURLs_1200px[randomIndex];
     img += '\" width=\"300px\" />';
     return img;
   }
