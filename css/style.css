@@ -50,6 +50,18 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+footer {
+  color: var(--color-text);
+  font-family: "Lato", sans-serif;
+  overflow-y: scroll;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
 h1.title {
   color: var(--color-primary);
   font-size: 3em;
