@@ -109,6 +109,34 @@ Amplitude.init({
       "date": '10 mai 2020',
       "credits": 'Christian Pacaud : musique, mixage et basse <br> <br> Photo : Pražský Metronom, 2 décembre 2017, Prague, Tchéquie / Christian Pacaud'
     },
+    {
+      "name": "Morphéus",
+      "artist": "Christian Pacaud, Luke Kelly & Bastien Jouvin",
+      "url": "./musique/Christian Pacaud, Luke Kelly & Bastien Jouvin - Morphéus.ogg",
+      "cover_art_url": "./art/morpheus.jpg",
+      "download": '<a href="./musique/Christian Pacaud, Luke Kelly & Bastien Jouvin - Morphéus.flac" download>Télécharger (FLAC)</a>',
+      "date": '28 décembre 2020',
+      "credits": ''
+    },
+    {
+      "name": "Side A",
+      "artist": "Christian Pacaud & Pier-André Côté",
+      "url": "./musique/Christian Pacaud & Pier-André Côté - Side A.ogg",
+      "cover_art_url": "./art/side_a.jpg",
+      "download": '<a href="./musique/Christian Pacaud & Pier-André Côté - Side A.flac" download>Télécharger (FLAC)</a>',
+      "date": '24 décembre 2020',
+      "credits": ''
+    },
+    {
+      "name": "Timulog",
+      "artist": "Christian Pacaud & Francis Thibault",
+      "url": "./musique/Christian Pacaud & Francis Thibault - Timulog.ogg",
+      "cover_art_url": "./art/timulog.jpg",
+      "download": '<a href="./musique/Christian Pacaud & Francis Thibault - Timulog.flac" download>Télécharger (FLAC)</a>',
+      "date": '19 décembre 2020',
+      "credits": ''
+    },
+
   ],
   "callbacks": {
 'song_change': function () {
