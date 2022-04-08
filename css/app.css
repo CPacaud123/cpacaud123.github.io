@@ -359,8 +359,8 @@ div#player-bottom div#control-container div#prev-container div#previous:hover {
 div#player-bottom div#control-container div#play-pause-container {
   display: inline-block;
   height: 60px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 5em;
+  padding-right: 5em;
   padding-bottom: 18px;
 }
 
