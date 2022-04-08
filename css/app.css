@@ -105,7 +105,7 @@ div#list-screen div#list div.song div.song-meta-container span.song-date {
   line-height: 14px;
   color: #909090;
   letter-spacing: 0.47px;
-  display: block;
+  display: inline;
 }
 
 div#list-screen div#list div.song span.song-duration {
