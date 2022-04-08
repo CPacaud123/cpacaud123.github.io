@@ -89,7 +89,7 @@ Amplitude.init({
       "cover_art_url": "./art/anthmeses.jpg",
       "download": '<a href="./musique/Christian Pacaud - Anthmèses.flac" download>Télécharger (FLAC)</a>',
       "date": '5 avril 2021',
-      "credits": 'Christian Pacaud : musique, mixage, guitare et basse <br> Cameron Wisch : batterie  (<a href="https://cameronwisch.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">cameronwisch.com</a>) <br> Francis Grégoire : claviers  (<a href="https://universeeffects.ca/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">universeeffects.ca</a>) <br> <br> Photo : Sébastien Fortier  (<a href="https://unsplash.com/photos/AshT365TphA" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">unsplash.com/photos/AshT365TphA</a>)'
+      "credits": 'Christian Pacaud : musique, mixage, guitare et basse <br> Cameron Wisch : batterie  (<a href="https://cameronwisch.com/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">cameronwisch.com</a>) <br> Francis Grégoire : claviers  (<a href="https://universeeffects.ca/" rel="nofollow ugc" referrerpolicy="strict-origin-when-cross-origin">universeeffects.ca</a>) <br> <br> Photo : <a href="https://unsplash.com/photos/AshT365TphA" target="_blank" rel="noopener noreferrer"">Sébastien Fortier</a>'
     },
     { /*Géants - Assoupis sur les berges*/
       "name": "Géants - Assoupis sur les berges",
@@ -116,8 +116,7 @@ Amplitude.init({
       "cover_art_url": "./art/morpheus.jpg",
       "download": '<a href="./musique/Christian Pacaud, Luke Kelly & Bastien Jouvin - Morphéus.flac" download>Télécharger (FLAC)</a>',
       "date": '28 décembre 2020',
-      "credits": ''
-    },
+      "credits": 'Christian Pacaud : musique, arrangement et mixage <br> Luke Kelly : musique <br> Bastien Jouvin : voix, texte <br><br> Photo : <a href="https://unsplash.com/photos/PUMuasx8BPg" target="_blank" rel="noopener noreferrer">Mohamed Rishfaan</a>' },
     {
       "name": "Side A",
       "artist": "Christian Pacaud & Pier-André Côté",
@@ -125,7 +124,7 @@ Amplitude.init({
       "cover_art_url": "./art/side_a.jpg",
       "download": '<a href="./musique/Christian Pacaud & Pier-André Côté - Side A.flac" download>Télécharger (FLAC)</a>',
       "date": '24 décembre 2020',
-      "credits": ''
+      "credits": 'Christian Pacaud : musique, mixage et basse <br> Pier-André Côté : batterie <br><br> Photo : <a href="https://unsplash.com/photos/X9k1b5pGX5Y" target="_blank" rel="noopener noreferrer">Dan-Cristian Pădureț</a>'
     },
     {
       "name": "Timulog",
@@ -134,7 +133,7 @@ Amplitude.init({
       "cover_art_url": "./art/timulog.jpg",
       "download": '<a href="./musique/Christian Pacaud & Francis Thibault - Timulog.flac" download>Télécharger (FLAC)</a>',
       "date": '19 décembre 2020',
-      "credits": ''
+      "credits": 'Christian Pacaud : musique, arrangement et mixage <br> Francis Thibault : musique <br><br> Photo : <a href="https://unsplash.com/photos/pRiUWB0YVeQ" target="_blank" rel="noopener noreferrer">Marek Piwnicki</a>'
     },
 
   ],
