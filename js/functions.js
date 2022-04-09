@@ -37,6 +37,11 @@ document.getElementById('song-played-progress').addEventListener('click', functi
 document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.height = document.querySelector('img[data-amplitude-song-info="cover_art_url"]').offsetWidth + 'px';
 
 
+/* cpacaud: stop on pressing previous/next */
+/* document.getElementById('next-container').addEventListener('click', Amplitude.pause);
+document.getElementById('prev-container').addEventListener('click', Amplitude.pause); */
+
+
 /*
 init
 */
@@ -47,6 +52,8 @@ Amplitude.init({
     39: 'next',
     32: 'play_pause'
   },
+
+  "volume": 100,
 
   "songs": [
 
