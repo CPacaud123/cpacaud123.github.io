@@ -14,6 +14,7 @@ body::-webkit-scrollbar {
 }
 
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
@@ -42,21 +43,15 @@ a:hover {
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: "Lato", sans-serif;
   overflow-y: scroll;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
 }
 
 footer {
   color: var(--color-text);
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
-  font-family: "Lato", sans-serif;
   text-align: center;
   margin: 50px;
 }

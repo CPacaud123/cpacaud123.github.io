@@ -22,7 +22,6 @@ div#list-screen div#list-screen-header {
   height: 25px;
   position: relative;
   color: white;
-  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
@@ -37,7 +36,6 @@ div#list-screen div#list-screen-header span.list-active-song-name {
   color: #fff;
   line-height: 25px;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
   letter-spacing: 0.5px;
 }
 
@@ -61,7 +59,6 @@ div#list-screen div#list div.song span.song-number-now-playing {
 
 div#list-screen div#list div.song span.song-number-now-playing span.number {
   opacity: 0.5;
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   color: #fff;
   letter-spacing: 0.5px;
@@ -91,7 +88,6 @@ div#list-screen div#list div.song div.song-meta-container {
 }
 
 div#list-screen div#list div.song div.song-meta-container span.song-name {
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 16px;
   color: #fff;
@@ -100,7 +96,6 @@ div#list-screen div#list div.song div.song-meta-container span.song-name {
 }
 
 div#list-screen div#list div.song div.song-meta-container span.song-date {
-  font-family: "Lato", sans-serif;
   font-size: 12px;
   line-height: 14px;
   color: #909090;
@@ -111,7 +106,6 @@ div#list-screen div#list div.song div.song-meta-container span.song-date {
 div#list-screen div#list div.song span.song-duration {
   display: inline-block;
   opacity: 0.5;
-  font-family: 'Lato', sans-serif;
   font-size: 14px;
   color: #fff;
   letter-spacing: 0.5px;
@@ -130,7 +124,6 @@ div#list-screen div#list-screen-footer div#list-screen-meta-container {
 }
 
 div#list-screen div#list-screen-footer div#list-screen-meta-container span.song-name {
-  font-family: "Lato", sans-serif;
   font-size: 16px;
   color: #fff;
   letter-spacing: 0.5px;
@@ -139,7 +132,6 @@ div#list-screen div#list-screen-footer div#list-screen-meta-container span.song-
 
 div#list-screen div#list-screen-footer div#list-screen-meta-container div.song-artist-album {
   opacity: 0.5;
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   color: #fff;
   letter-spacing: 0.5px;
@@ -199,7 +191,6 @@ div.player-header {
   margin-top: 40px;
   cursor: pointer;
   color: white;
-  font-family: "Lato", sans-serif;
 }
 
 div.player-header img#down {
@@ -317,7 +308,6 @@ div#player-middle div#time-container span.amplitude-current-time {
 }
 
 div#player-middle span.song-name {
-  font-family: Lato, sans-serif;
   font-size: 18px;
   color: #fff;
   letter-spacing: 0.5px;
