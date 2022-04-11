@@ -63,7 +63,7 @@ Amplitude.init({
       "name": "123",
       "artist": "Christian Pacaud",
       "url": "./musique/123.ogg",
-      "cover_art_url": "./art/123.jpg",
+      "cover_art_url": "./art/123.webp",
       "download": '<a href="./musique/123.flac" download>Télécharger (FLAC)</a>',
       "date": '10 janvier 2000',
       "credits":
@@ -78,7 +78,7 @@ Amplitude.init({
       "name": "Géants - Naître en soif de vide",
       "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Géants - Naître en soif de vide.ogg",
-      "cover_art_url": "./art/geants_naitre.jpg",
+      "cover_art_url": "./art/geants_naitre.webp",
       "download": '<a href="./musique/Christian Pacaud - Géants - Naître en soif de vide.flac" download>Télécharger (FLAC)</a>',
       "date": '5 septembre 2021',
       "credits":
@@ -107,7 +107,7 @@ Amplitude.init({
       "name": "Orfan",
       "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Orfan.ogg",
-      "cover_art_url": "./art/orfan.jpg",
+      "cover_art_url": "./art/orfan.webp",
       "download": '<a href="./musique/Christian Pacaud - Orfan.flac" download>Télécharger (FLAC)</a>',
       "date": '4 mai 2021 ',
       "credits":
@@ -128,7 +128,7 @@ Amplitude.init({
       "name": 'Anthmèses',
       "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Anthmèses.ogg",
-      "cover_art_url": "./art/anthmeses.jpg",
+      "cover_art_url": "./art/anthmeses.webp",
       "download": '<a href="./musique/Christian Pacaud - Anthmèses.flac" download>Télécharger (FLAC)</a>',
       "date": '5 avril 2021',
       "credits":
@@ -144,7 +144,7 @@ Amplitude.init({
       "name": "Géants - Assoupis sur les berges",
       "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Géants - Assoupis sur les berges.ogg",
-      "cover_art_url": "./art/geants_assoupis.jpg",
+      "cover_art_url": "./art/geants_assoupis.webp",
       "download": '<a href="./musique/Christian Pacaud - Géants - Assoupis sur les berges.flac" download>Télécharger (FLAC)</a>',
       "date": '20 mars 2021',
       "credits":
@@ -170,7 +170,7 @@ Amplitude.init({
       "name": "Apparoir VX",
       "artist": "Christian Pacaud",
       "url": "./musique/Christian Pacaud - Apparoir VX.ogg",
-      "cover_art_url": "./art/apparoir_vx.jpg",
+      "cover_art_url": "./art/apparoir_vx.webp",
       "download": '<a href="./musique/Christian Pacaud - Apparoir VX.flac" download>Télécharger (FLAC)</a>',
       "date": '10 mai 2020',
       "credits":
@@ -184,7 +184,7 @@ Amplitude.init({
       "name": "Morphéus",
       "artist": "Christian Pacaud, Luke Kelly & Bastien Jouvin",
       "url": "./musique/Christian Pacaud, Luke Kelly & Bastien Jouvin - Morphéus.ogg",
-      "cover_art_url": "./art/morpheus.jpg",
+      "cover_art_url": "./art/morpheus.webp",
       "download": '<a href="./musique/Christian Pacaud, Luke Kelly & Bastien Jouvin - Morphéus.flac" download>Télécharger (FLAC)</a>',
       "date": '28 décembre 2020',
       "credits":
@@ -200,7 +200,7 @@ Amplitude.init({
       "name": "Side A",
       "artist": "Christian Pacaud & Pier-André Côté",
       "url": "./musique/Christian Pacaud & Pier-André Côté - Side A.ogg",
-      "cover_art_url": "./art/side_a.jpg",
+      "cover_art_url": "./art/side_a.webp",
       "download": '<a href="./musique/Christian Pacaud & Pier-André Côté - Side A.flac" download>Télécharger (FLAC)</a>',
       "date": '24 décembre 2020',
       "credits":
@@ -215,7 +215,7 @@ Amplitude.init({
       "name": "Timulog",
       "artist": "Christian Pacaud & Francis Thibault",
       "url": "./musique/Christian Pacaud & Francis Thibault - Timulog.ogg",
-      "cover_art_url": "./art/timulog.jpg",
+      "cover_art_url": "./art/timulog.webp",
       "download": '<a href="./musique/Christian Pacaud & Francis Thibault - Timulog.flac" download>Télécharger (FLAC)</a>',
       "date": '19 décembre 2020',
       "credits":
