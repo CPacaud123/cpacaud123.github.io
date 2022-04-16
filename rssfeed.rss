@@ -7,21 +7,12 @@
     <description>Site web de Christian Pacaud</description>
     <language>fr-ca</language>
     <item>
-      <title>Passage à Linux (test)</title>
-      <pubDate>Tue, 12 Apr 2022 16:54:53 -0400</pubDate>
-      <link>https://notes.christianpacaud.com/passage-%C3%A0-linux</link>
-      <guid isPermaLink="true">https://notes.christianpacaud.com/passage-%C3%A0-linux</guid>
-      <description><![CDATA[<CONTENT> 
-<H2 id=problèmes-réglés->Problèmes réglés :</H2>
-<H4 id=corruption-intermittente-de-laudio-en-utilisant-firefox>Corruption intermittente de l’audio en utilisant Firefox</H4>
-<p><a href="https://www.reddit.com/r/Ubuntu/comments/b3rs84/firefox_and_corrupt_audio/" target=blank>https://www.reddit.com/r/Ubuntu/comments/b3rs84/firefox_and_corrupt_audio/</a><br/><a href="https://askubuntu.com/questions/951016/fuzzy-garbled-audio-with-slight-echo/1164056#1164056" target=blank>https://askubuntu.com/questions/951016/fuzzy-garbled-audio-with-slight-echo/1164056#1164056</a><br/><a href="https://bugs.launchpad.net/ubuntu/+source/speech-dispatcher/+bug/1736222" target=blank>https://bugs.launchpad.net/ubuntu/+source/speech-dispatcher/+bug/1736222</a></p>
-<H4 id=impossible-denvoyer-à-la-corbeille-à-partir-de-mounted-drives>Impossible d’envoyer à la Corbeille à partir de mounted drives</H4>
-<p><a href="https://askubuntu.com/questions/262817/unable-to-find-or-create-trash-directory" target=blank>https://askubuntu.com/questions/262817/unable-to-find-or-create-trash-directory</a></p>
-<H4 id=pairing-de-périphériques-bluetooth-sur-un-système-dual-boot-win10linux>Pairing de périphériques Bluetooth sur un système dual-boot Win10/Linux</H4>
-<p><a href="https://unix.stackexchange.com/questions/402488/dual-boot-bluetooth-le-low-energy-device-pairing?noredirect=1&amp;lq=1" target=blank>https://unix.stackexchange.com/questions/402488/dual-boot-bluetooth-le-low-energy-device-pairing?noredirect=1&amp;lq=1</a><br/><a href="https://console.systems/2014/09/how-to-pair-low-energy-le-bluetooth.html" target=blank>https://console.systems/2014/09/how-to-pair-low-energy-le-bluetooth.html</a></p>
-<H2 id=trucs-pratiques>Trucs pratiques</H2>
-<H4 id=intégration-automatique-dappimages-avec-appimagelauncher>Intégration automatique d’AppImages avec AppImageLauncher</H4>
-<p><a href="https://github.com/TheAssassin/AppImageLauncher" target=blank>https://github.com/TheAssassin/AppImageLauncher</a></p></CONTENT>]]></description>
+      <title>Mises à jour - 16 avril</title>
+      <pubDate>Sat, 16 Apr 2022 11:33:49 -0400</pubDate>
+      <description><![CDATA[* Mise à jour test <br>
+* 123123123 <br>
+* asdasdasd <br>]]></description>
+      <link />
     </item>
   </channel>
 </rss>
