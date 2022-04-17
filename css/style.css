@@ -93,6 +93,14 @@ h1.title {
   border-style: none;
 }
 
+.video {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 #randImage {
   text-align: center;
 }
