@@ -9,7 +9,6 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="img/favicon.ico">
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
@@ -46,17 +45,21 @@
     </div>
   </nav>
 
-<div class="video">
-<video controls width="600px">
-<source src="https://cloud.christianpacaud.com/index.php/s/HxjdHdTKpiErzDp/download/Contemplator%20-%20LARC%20et%20Teaser%20V1.mov">
-</video>
-</div>
+<!--- simple video player - http://thenewcode.com/792/Create-A-Simple-HTML5-Video-Playlist -->
 
-<div class="video">
-<video controls width="600px">
-<source src="https://cloud.christianpacaud.com/index.php/s/HxjdHdTKpiErzDp/download/Contemplator%20-%20LARC%20et%20Teaser%20V1.mov">
-</video>
-</div>
+  <figure id="video_player">
+  	<video controls poster="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.jpg">
+  		<source src="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.webm" type="video/webm">
+  	</video>
+  	<figcaption>
+      <a href="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.webm">
+        <img title="Alarmist - Boyfriend in the Sky" alt="Alarmist - Boyfriend in the Sky" src="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.jpg"></a>
+      <a href="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Arthur%20Moon%20-%20I%20Feel%20Better.webm">
+        <img title="Arthur Moon - I Feel Better" alt="Arthur Moon - I Feel Better" src="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Arthur%20Moon%20-%20I%20Feel%20Better.jpg"></a>
+    </figcaption>
+  </figure>
+
+
 
     <footer>
       <script type="text/javascript">
@@ -71,5 +74,29 @@
     </footer>
 
 </body>
+
+<script>
+
+var video_player = document.getElementById("video_player"),
+links = video_player.getElementsByTagName('a');
+for (var i=0; i<links.length; i++) {
+	links[i].onclick = handler;
+}
+
+function handler(e) {
+	e.preventDefault();
+	videotarget = this.getAttribute("href");
+	filename = videotarget.substr(0, videotarget.lastIndexOf('.')) || videotarget;
+	video = document.querySelector("#video_player video");
+	// video.removeAttribute("controls");
+	video.removeAttribute("poster");
+	source = document.querySelectorAll("#video_player video source");
+	source[0].src = filename + ".webm";
+	// source[1].src = filename + ".webm";
+	video.load();
+	video.play();
+}
+
+</script>
 
 </html>

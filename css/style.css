@@ -101,6 +101,42 @@ h1.title {
   margin-bottom: 50px;
 }
 
+#video_player {
+	display: table;
+  width: 100%;
+  margin: 0 auto;
+	line-height: 0;
+	font-size: 0;
+	background: #000;
+}
+
+@media (min-width: 750px) {
+  #video_player {
+    width: 66%;
+  }
+}
+
+#video_player video,
+	#video_player figcaption {
+			display: table-row;
+}
+#video_player figcaption a {
+  display: inline-block;
+	width: 25%;
+	opacity: .5;
+	transition: 1s opacity;
+}
+#video_player figcaption a img,
+	figure video {
+		width: 100%;
+		height: auto;
+}
+#video_player figcaption a:hover {
+	opacity: 1;
+}
+
+
+
 #randImage {
   text-align: center;
 }
