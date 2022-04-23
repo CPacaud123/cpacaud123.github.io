@@ -116,21 +116,52 @@ h1.title {
   }
 }
 
-#video_player video,
-	#video_player figcaption {
+#video_player video {
+    display: table-row;
+}
+
+#video_player figcaption {
 			display: table-row;
 }
+
 #video_player figcaption a {
   display: inline-block;
-	width: 25%;
+	width: 50%;
 	opacity: .5;
 	transition: 1s opacity;
 }
-#video_player figcaption a img,
-	figure video {
+
+@media (min-width: 750px) {
+  #video_player figcaption a {
+  	width: 25%;
+  }
+}
+
+#video_player figcaption a span {
+	line-height: 1;
+  font-size: 2vw;
+  color: white;
+  background: black;
+  opacity: .75;
+  position: absolute;
+}
+
+@media (min-width: 750px) {
+  #video_player figcaption a span {
+    font-size: 0.8vw;
+  }
+}
+
+#video_player figcaption a img {
 		width: 100%;
 		height: auto;
 }
+
+figure video {
+		width: 100%;
+		height: auto;
+}
+
 #video_player figcaption a:hover {
 	opacity: 1;
 }
