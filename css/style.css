@@ -138,17 +138,18 @@ h1.title {
 }
 
 .video_titre {
-  line-height: 1;
-  font-size: 14px;
-  color: white;
-  background: black;
+  font-size: 18px;
+letter-spacing: 0.5px;
+line-height: 24px;
 }
 
 .video_desc {
-  line-height: 1;
-  font-size: 14px;
-  color: white;
-  background: black;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.video_sel_desc {
+  display: none;
 }
 
 .video_sel_titre {
