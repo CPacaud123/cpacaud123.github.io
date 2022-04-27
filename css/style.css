@@ -137,7 +137,21 @@ h1.title {
   }
 }
 
-#video_player figcaption a span {
+.video_titre {
+  line-height: 1;
+  font-size: 14px;
+  color: white;
+  background: black;
+}
+
+.video_desc {
+  line-height: 1;
+  font-size: 14px;
+  color: white;
+  background: black;
+}
+
+.video_sel_titre {
 	line-height: 1;
   font-size: 2vw;
   color: white;
@@ -147,7 +161,7 @@ h1.title {
 }
 
 @media (min-width: 750px) {
-  #video_player figcaption a span {
+  .video_sel_titre {
     font-size: 0.8vw;
   }
 }
