@@ -27,15 +27,14 @@
         </a>
       </div>
       <div>
-        |
-      </div>
-      <div>
         <a href="musique.html">
           Musique
         </a>
       </div>
       <div>
-        |
+        <a href="video.html">
+          Vidéo
+        </a>
       </div>
       <div>
         <a href="https://notes.christianpacaud.com/">
@@ -45,18 +44,22 @@
     </div>
   </nav>
 
+
+
 <!--- simple video player - http://thenewcode.com/792/Create-A-Simple-HTML5-Video-Playlist -->
 
   <figure id="video_player">
+    <div class="video_cont">
   	<video controls poster="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.jpg">
       <source src="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.webm" type="video/webm">
         <source src="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.mp4" type="video/mp4">
   	</video>
+  </div>
 
     <div class="video_info">
     <p class="video_titre">Alarmist - Boyfriend in the Sky<br>2020/04/12</p>
     <p class="video_desc">
-    Extrait tiré de l'album Sequesterer (2019), <a href="https://alarmist.bandcamp.com/album/sequesterer" target="_blank">disponible sur Bandcamp.</a>
+    Pièce tirée de l'album Sequesterer (2019), <a href="https://alarmist.bandcamp.com/album/sequesterer" target="_blank">disponible sur Bandcamp.</a>
     <br><br>Musique par :
     <br>Neil Crowley
     <br>Elis Czerniak
@@ -85,7 +88,7 @@
         <img alt="Alarmist - Boyfriend in the Sky" src="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Alarmist%20-%20Boyfriend%20in%20the%20Sky.jpg">
         </a>
         <span class="video_sel_desc">
-          Extrait tiré de l'album Sequesterer (2019), <a href="https://alarmist.bandcamp.com/album/sequesterer" target="_blank">disponible sur Bandcamp.</a>
+          Pièce tirée de l'album Sequesterer (2019), <a href="https://alarmist.bandcamp.com/album/sequesterer" target="_blank">disponible sur Bandcamp.</a>
           <br><br>Musique par :
           <br>Neil Crowley
           <br>Elis Czerniak
@@ -98,12 +101,18 @@
         <a id="video_link" href="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Arthur%20Moon%20-%20I%20Feel%20Better.webm">
         <span class="video_sel_titre">Arthur Moon - I Feel Better<br>2020/04/10</span>
         <img alt="Arthur Moon - I Feel Better" src="https://cloud.christianpacaud.com/index.php/s/GAfZPsHMezaLJks/download?path=&files=Bass%20Vid%20-%20Arthur%20Moon%20-%20I%20Feel%20Better.jpg">
-        <span class="video_sel_desc">
-        Description de Arthur Moon
-        <br>123
-        <br>123
-        </span>
         </a>
+        <span class="video_sel_desc">
+        Pièce tirée de l'album Arthur Moon (2019), <a href="https://arthurmoon.bandcamp.com/album/arthur-moon" target="_blank">disponible sur Bandcamp.</a>
+        <br><br>Musique par :
+        <br>Lora-Faye Åshuvud
+        <br>Cale Hawkins
+        <br>Aviva Jaye
+        <br>Martin D Fowler
+        <br>Dave Palazola
+        <br>Malcolm Parson
+        <br>Nikara Warren
+        </span>
       </span>
 
       <span class="video_sel">
@@ -537,7 +546,8 @@ function handler(e) {
 	video.play();
   video_titre.innerHTML = this.querySelector(".video_sel_titre").innerHTML;
   video_desc.innerHTML = this.querySelector(".video_sel_desc").innerHTML;
-  window.scrollTo(0, 150);
+  // window.scrollTo(0, 150);
+  document.querySelector("nav").scrollIntoView({behavior: "smooth", block: "start"});
 }
 
 </script>
