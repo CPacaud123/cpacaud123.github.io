@@ -129,6 +129,10 @@ left: 0;
   }
 }
 
+.video_info {
+  text-align: center;
+}
+
 .video_titre {
   font-size: 18px;
 letter-spacing: 0.5px;
