@@ -91,7 +91,7 @@ Amplitude.init({
       Stéphane Fontaine : clarinette<br>
       Yana Ouellet : basson<br>
       <br>
-      <a href="http://www.quatuorcrema.com" target="_blank">Quatuor Crema</a><br>
+      Quatuor Crema<br>
       Inti Manzi : violon<br>
       Jean-Michel Marois : violon<br>
       Annie Morrier : alto<br>
@@ -115,7 +115,7 @@ Amplitude.init({
       Christian Pacaud : musique, arrangements, mixage, guitare et basse<br>
       <a href="https://cameronwisch.com/" target="_blank">Cameron Wisch</a> : batterie<br>
       <br>
-      <a href="http://www.quatuorcrema.com" target="_blank">Quatuor Crema</a><br>
+      Quatuor Crema<br>
       Inti Manzi : violon<br>
       Jean-Michel Marois : violon<br>
       Annie Morrier : alto<br>
@@ -157,7 +157,7 @@ Amplitude.init({
       <a href="https://lorisyngajewski.com/" target="_blank">Lori Syngajewski</a> : clarinette<br>
       <a href="https://www.youtube.com/c/Bassoonify/" target="_blank">Bassoonify</a> : basson<br>
       <br>
-      <a href="http://www.quatuorcrema.com" target="_blank">Quatuor Crema</a><br>
+      Quatuor Crema<br>
       Inti Manzi : violon<br>
       Jean-Michel Marois : violon<br>
       Annie Morrier : alto<br>
