@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Christian Pacaud</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1 class="title" align="center">Christian Pacaud</h1>
+  </header>
+
+<nav>
+  <div class="navmenu">
+    <div>
+      <a href="index.html">
+        Accueil
+      </a>
+    </div>
+    <div>
+      <a href="musique.html">
+        Musique
+      </a>
+    </div>
+    <div>
+      <a href="video.html">
+        Vidéo
+      </a>
+    </div>
+    <div>
+      <a href="https://notes.christianpacaud.com/">
+        Notes
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- rnd img script -->
+
+  <div id=randImage>
+
+    <script type="text/javascript">
+    var imageURLs_1200px = [
+      "photos/fleuve_1200px.webp"
+      , "photos/lichen_1200px.webp"
+      , "photos/montalbert_1200px.webp"
+      , "photos/roche_1200px.webp"
+    ];
+
+    /*
+    var imageURLs_300px = [
+      "photos/fleuve_300px.jpg"
+      , "photos/lichen_300px.jpg"
+      , "photos/montalbert_300px.jpg"
+      , "photos/roche_300px.jpg"
+    ];
+    */
+
+    var minw750 = window.matchMedia("(min-width: 750px)")
+    var minw1200 = window.matchMedia("(min-width: 1200px)")
+
+    function getImageTag() {
+      if (minw1200.matches) {
+        var img = '<img src=\"';
+        var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
+        img += imageURLs_1200px[randomIndex];
+        img += '\" width=\"900px\" />';
+        return img;
+      } else if (minw750.matches) {
+        var img = '<img src=\"';
+        var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
+        img += imageURLs_1200px[randomIndex];
+        img += '\" width=\"600px\" />';
+        return img;
+      } else {
+        var img = '<img src=\"';
+        var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
+        img += imageURLs_1200px[randomIndex];
+        img += '\" width=\"300px\" />';
+        return img;
+      }
+    }
+
+      document.write(getImageTag());
+    </script>
+  </div>
+
+<!-- contact footer -->
+
+
+  <footer>
+    <script type="text/javascript">
+      var part1 = "email";
+      var part2 = Math.pow(2, 6);
+      var part3 = String.fromCharCode(part2);
+      var part4 = "christianpacaud.com"
+      var part5 = part1 + String.fromCharCode(part2) + part4;
+      document.write("<h2><a href=" + "mai" + "lto" + ":" + part5 + ">" + "Écrivez-moi." + "</a></h2>");
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

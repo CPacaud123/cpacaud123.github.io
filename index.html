@@ -1,115 +1,165 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" class="">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
-<head>
+    <title>Consultant 101</title>
 
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>Christian Pacaud</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="img/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="lib/icomoon.css">
+    <script type="text/javascript" src="lib/player-0.0.11.min.js"></script>
+    <script type="text/javascript" src="lib/lzwcompress.js"></script>
 
-</head>
-
-<body>
-
-  <header>
-    <h1 class="title" align="center">Christian Pacaud</h1>
-  </header>
-
-<nav>
-  <div class="navmenu">
-    <div>
-      <a href="index.html">
-        Accueil
-      </a>
-    </div>
-    <div>
-      <a href="musique.html">
-        Musique
-      </a>
-    </div>
-    <div>
-      <a href="video.html">
-        Vidéo
-      </a>
-    </div>
-    <div>
-      <a href="https://notes.christianpacaud.com/">
-        Notes
-      </a>
-    </div>
-  </div>
-</nav>
-
-
-<!-- rnd img script -->
-
-  <div id=randImage>
-
+    <!-- Resize Hack -->
     <script type="text/javascript">
-    var imageURLs_1200px = [
-      "photos/fleuve_1200px.webp"
-      , "photos/lichen_1200px.webp"
-      , "photos/montalbert_1200px.webp"
-      , "photos/roche_1200px.webp"
-    ];
+      window.resizeTo(screen.width, screen.height);
+    </script>
+    
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    /*
-    var imageURLs_300px = [
-      "photos/fleuve_300px.jpg"
-      , "photos/lichen_300px.jpg"
-      , "photos/montalbert_300px.jpg"
-      , "photos/roche_300px.jpg"
-    ];
-    */
+    <script id="__ENTRY__" type="application/json">
+      {".js":["rise/0a77ea4e.js"]}
+    </script>
 
-    var minw750 = window.matchMedia("(min-width: 750px)")
-    var minw1200 = window.matchMedia("(min-width: 1200px)")
+    <script id="__REMOTE_ENTRIES__" type="application/json">
+      {"mondrian":{".js":["mondrian/entry.js"]}}
+    </script>
 
-    function getImageTag() {
-      if (minw1200.matches) {
-        var img = '<img src=\"';
-        var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
-        img += imageURLs_1200px[randomIndex];
-        img += '\" width=\"900px\" />';
-        return img;
-      } else if (minw750.matches) {
-        var img = '<img src=\"';
-        var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
-        img += imageURLs_1200px[randomIndex];
-        img += '\" width=\"600px\" />';
-        return img;
-      } else {
-        var img = '<img src=\"';
-        var randomIndex = Math.floor(Math.random() * imageURLs_1200px.length);
-        img += imageURLs_1200px[randomIndex];
-        img += '\" width=\"300px\" />';
-        return img;
-      }
+    <script>
+      (function() {
+        const jsonp = {}
+
+        function loadModule(manifest) {
+          const p = []
+
+          if (manifest['.css'] != null) {
+            for (var idx = 0; idx < manifest['.css'].length; idx++) {
+              p.push(new Promise((resolve, reject) => {
+                var link = document.createElement('link')
+                link.onload = resolve
+                link.onerror = reject
+                link.rel = 'stylesheet'
+                link.href = 'lib/' + manifest['.css'][idx]
+                document.body.appendChild(link)
+              }))
+            }
+          }
+
+          if (manifest['.js'] != null) {
+            for (var idx = 0; idx < manifest['.js'].length; idx++) {
+              p.push(new Promise((resolve, reject) => {
+                var script = document.createElement('script')
+                script.onload = resolve
+                script.onerror = reject
+                script.src = 'lib/' + manifest['.js'][idx]
+                document.body.appendChild(script)
+              }))
+            }
+          }
+
+          return Promise.all(p)
+        }
+
+        function deserialize(str) {
+          const buffer = Uint8Array.from(atob(str), c => c.charCodeAt(0))
+          const json = new TextDecoder().decode(buffer)
+          const result = JSON.parse(json)
+          return result
+        }
+
+        function __loadEntry() {
+          return loadModule(JSON.parse(document.getElementById('__ENTRY__').textContent))
+        }
+
+        function __loadRemoteEntry(name) {
+          const manifest = JSON.parse(document.getElementById('__REMOTE_ENTRIES__').textContent)
+          if (manifest[name] == null) throw new Error(`Missing manifest for remote entry "${name}".`)
+          return loadModule(manifest[name])
+        }
+        
+        async function __loadJsonp(id, path) {
+          try {
+            return await new Promise((resolve, reject) => {
+              try {
+                jsonp[id] = resolve
+                const script = document.createElement('script')
+                script.onerror = reject
+                script.src = `./${path}`
+                document.head.appendChild(script)
+              } catch (err) {
+                reject(err)
+              }
+            })
+          } finally {
+            delete jsonp[id]
+          }
+        }
+
+        function __resolveJsonp(id, data) {
+          const resolve = jsonp[id]
+          if (typeof resolve !== 'function') {
+            throw new Error(`Could not load JSONP "${id}"`)
+          }
+          resolve(data)
+        }
+
+        async function __fetchCourse(name) {
+          name = name ?? window.i18n.default
+          if (!window.i18n.available.includes(name)) {
+            console.warn(`Could not load locale "${name}"`)
+            name = window.i18n.available[0]
+          }
+          const encoded = await __loadJsonp(`course:${name}`, `locales/${name}.js`)
+          const courseData = deserialize(encoded)
+          return courseData
+        }
+
+        window.__loadEntry = __loadEntry
+        window.__loadRemoteEntry = __loadRemoteEntry
+        window.__loadJsonp = __loadJsonp
+        window.__resolveJsonp = __resolveJsonp
+        window.__fetchCourse = __fetchCourse
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+  (function(root) {
+    window.i18n = {"available":["und"],"default":"und"};
+    window.partnerContent = [];
+
+    function isExport() {
+      return true;
     }
 
-      document.write(getImageTag());
-    </script>
-  </div>
+    function resolvePath(path) {
+      return ('assets/').concat(path);
+    }
 
-<!-- contact footer -->
+    function resolveFontPath(font) {
+      return ('lib/fonts/').concat(font.key.split('/').reverse()[0]);
+    }
 
+    function fetchAvailableLocales() {
+      return window.i18n
+    }
 
-  <footer>
-    <script type="text/javascript">
-      var part1 = "email";
-      var part2 = Math.pow(2, 6);
-      var part3 = String.fromCharCode(part2);
-      var part4 = "christianpacaud.com"
-      var part5 = part1 + String.fromCharCode(part2) + part4;
-      document.write("<h2><a href=" + "mai" + "lto" + ":" + part5 + ">" + "Écrivez-moi." + "</a></h2>");
-    </script>
+    root.Runtime = {
+      fetch: window.__fetchCourse,
+      fetchAvailableLocales: fetchAvailableLocales,
+      isExport: isExport,
+      resolvePath: resolvePath,
+      resolveFontPath: resolveFontPath
+    };
+  }(window));
+</script>
 
-  </footer>
-
-</body>
-
+    
+    <script>__loadEntry()</script>
+    
+  </body>
 </html>
